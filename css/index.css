@@ -71,6 +71,29 @@ p {
     margin: 0 auto;
 }
 
+header nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+    font-size: 14px;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav img {
+    padding-bottom: 1.1em;
+    padding-left: .3em;
+}
+
+.main-img {
+    margin: .8em;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +127,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+div .boxes .box:first-child {
+    background: teal;
+}
+
+div .boxes .box:nth-child(2) {
+    background: gold;
+}
+
+div .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+div .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+div .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+div .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+div .boxes .box:nth-child(7) {
+    background:darkorchid;
+}
+
+div .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+div .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+div .boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 .bottom-content {
